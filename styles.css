@@ -2,36 +2,62 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 section{
     width: 100%;
     height: 100%;
     display: flex;
+    font-size: 1.3em;
 
 
 }
+
+div{
+    display: block;
+}
+
 div>h1{
     text-align: center;
 }
-div{
-    padding: 15px;
+
+img{
+   border-color: aqua;
+   border-width: 30px;
+    width: 300px;
+    height: 100px;
+    margin-left: 60px;
+
+}
+ol{
+    padding-left: 30px;
+}
+p{
+    font-size: "6";
 }
 .izquierda{
-    background-color: red;
+    background-color: darkgrey;
     width: 33.3%;
     height: 100%;
     
 
 }
+.izquierda>.im{
+    background-image: url("ps1.png");
+    
+
+}
 .centro{
-    background-color: green;
+    background-color:dimgrey;
+    color:darkgrey;
     width: 33.3%;
     height: 100%;
 
 }
 .derecha{
-    background-color: blue;
+    background-color: black;
+    color: white;
     width: 33.3%;
     height: 100%;
 
